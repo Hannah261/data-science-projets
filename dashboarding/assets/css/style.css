@@ -1,0 +1,30 @@
+header{
+    visibility: hidden;
+}
+
+.st-emotion-cache-1jicfl2{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.st-emotion-cache-1gwvy71 h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #0070c0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+/*header.stAppHeader.st-emotion-cache-h4xjwg.ezrtsby2{
+    visibility: hidden;
+}
+
+/*.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}*/

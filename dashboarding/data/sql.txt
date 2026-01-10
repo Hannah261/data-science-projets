@@ -1,0 +1,16 @@
+CREATE TABLE dashboards (
+    id SERIAL PRIMARY KEY,
+    user_id VARCHAR(50) NOT NULL,
+    nom TEXT UNIQUE,
+    config JSONB NULL,
+    date_creation TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+ALTER TABLE dashboards
+ADD CONSTRAINT fk_user
+FOREIGN KEY (user_id)
+REFERENCES users(matricule);
+
+
+insert into dashboards(user_id,nom) values ('DIT0011', 'Dashboard de Suivi'),
+('DIT0011', 'FX Analytics dashboard');

@@ -1,0 +1,17 @@
+[server]
+runOnSave = true
+
+[client]
+toolbarMode = "minimal" # peut être "minimal", "auto" , "developer", "viewer"
+
+[theme]
+base="light"
+primaryColor="#01679b"
+secondaryBackgroundColor="#e7e7ec"
+
+
+
+
+
+
+
